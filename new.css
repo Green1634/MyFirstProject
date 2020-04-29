@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(2, 31, 8); font-size: medium; font-weight: bold; color: cornsilk;
+}
+
+#head {
+    font-size: x-large; font-style: oblique; font-family: cursive; text-align: center;
+}
+
+#summary {font-size: larger; font: fantasy; font-weight: bold;}
+

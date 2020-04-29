@@ -28,3 +28,15 @@ overflow: hidden;
     background-color: #4CAF50;
     color: white;
 }
+
+body { background-image: url('background.png'); background-repeat:no-repeat;background-size: cover; font-size: large; font-weight: bolder; color: black; font-size: x-large; font-family: fantasy;" ;
+
+}
+
+div {text-align:center; clear: both;
+
+}
+
+#intro {
+    color: deeppink;
+}
