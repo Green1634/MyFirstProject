@@ -8,3 +8,25 @@ body {
 
 #summary {font-size: larger; font: fantasy; font-weight: bold;}
 
+ol {
+    list-style-position: inside; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-position: inside; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#working {
+    font-size: x-large; font-style: oblique; font-family: cursive; text-align: center;
+}
+
+#summary {
+    font-size: larger; font: fantasy; font-weight: bold;
+}
+
+p {
+    font-weight: bold; font-style: italic;
+}
+
+#sub {font-weight: bold;
+}

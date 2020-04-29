@@ -7,7 +7,7 @@ overflow: hidden;
 .topnav a {
 
     float: left;
-    color: #f2f2f2;
+    color: deeppink;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,7 @@ overflow: hidden;
     color: white;
 }
 
-body { background-image: url('background.png'); background-repeat:no-repeat;background-size: cover; font-size: large; font-weight: bolder; color: black; font-size: x-large; font-family: fantasy;" ;
+body { background-image: url('background.png'); background-repeat:no-repeat;background-size: cover; font-size: large; font-weight: bold; color: black; font-size: large; font-family: fantasy;" ;
 
 }
 
@@ -37,6 +37,7 @@ div {text-align:center; clear: both;
 
 }
 
-#intro {
-    color: deeppink;
+#intro { color: deeppink;
 }
+
+@media screen and (max-width: 550px) { width: 100%;} 
