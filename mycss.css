@@ -51,10 +51,10 @@ overflow: hidden;
 #home { background-image: url('img/home_back.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif ;
 
 }
-#education { background-image: url('img/education.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif ;
+#education { background-image: url('img/education.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif; color:white;
 
 }
-#work { background-image: url('img/work.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif 
+#work { background-image: url('img/work.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif; color: white;
 }
 #social_account { background-image: url('img/social.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif ;color: white;
 }
@@ -64,6 +64,10 @@ div {text-align:center; clear: both;
 }
 
 #intro { color: deeppink;
+}
+
+#social { text-align: center;
+
 }
 
 @media screen and (max-width: 550px) { width: 100%;} 
