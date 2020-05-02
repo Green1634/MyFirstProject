@@ -58,7 +58,7 @@ overflow: hidden;
 }
 #work { background-image: url('img/work.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif; color: white;
 }
-#social_account { background-image: url('img/social.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif ;color: white;
+#social_account { background-image: url('img/socialmedia2.jpg'); background-repeat:no-repeat;background-size: cover;font-family: 'Roboto', sans-serif ;color: white;
 }
 
 div {text-align:center; clear: both;
@@ -68,7 +68,19 @@ div {text-align:center; clear: both;
 #intro { color: deeppink;
 }
 
-#social { text-align: center;
+#social { 
+    text-align: center;
+    padding: 2em;
+
+}
+#linkedin_img { 
+    
+    height: 3em; 
+    width: 3em;
+
 
 }
 
+.margin-up {
+    margin-top: 2em;
+}
