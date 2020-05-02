@@ -1,7 +1,9 @@
 /* Add a black background color to the top navigation */
-.topnav { 
+@media screen and (max-width: 550px) 
+{.topnav { 
 overflow: hidden;
 
+}
 }
 /* style the links inside the navigation bar */
 .topnav a {
@@ -70,4 +72,3 @@ div {text-align:center; clear: both;
 
 }
 
-@media screen and (max-width: 550px) { width: 100%;} 
