@@ -20,15 +20,15 @@ $text_width: 3em;
   width: $text_width;
 }
 
+main {
+  p {
+    ul {
+        list-style-position: inside; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    ol {
+        @extend ul
+    }
 
-p {
-  ul {
-      list-style-position: inside; 
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  ol {
-      list-style-position: inside; 
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
 }

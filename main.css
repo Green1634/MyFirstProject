@@ -101,6 +101,7 @@ address {
 
 ol,
 ul,
+main p ol,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -108,7 +109,12 @@ dl {
 
 ol ol,
 ul ul,
+main p ol ul,
+ul main p ol,
+main p ul ol,
+main p ol ol,
 ol ul,
+ol main p ol,
 ul ol {
   margin-bottom: 0;
 }
@@ -9880,11 +9886,7 @@ h3 {
   width: 3em;
 }
 
-p ul {
-  list-style-position: inside;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-p ol {
+main p ul, main p ol {
   list-style-position: inside;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
