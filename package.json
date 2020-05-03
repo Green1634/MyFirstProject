@@ -1,0 +1,22 @@
+{
+  "name": "myfirstproject",
+  "version": "1.0.0",
+  "description": "This is my first HTML Project.\r The project is about myself, work experience, qualifications and social media accounts.\r My website consists of four different web pages, which I named, index.html (home page), educational.html, work_experience.html and summary.html.  \r Index.html, introduces me and all other pages can be accessed from the index. \r education.html includes table, bootstrap to access other pages \r work_experience is about my work experience using ordered and unordered list. \r Summary is about my social media accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Green1634/MyFirstProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Green1634/MyFirstProject/issues"
+  },
+  "homepage": "https://github.com/Green1634/MyFirstProject#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
